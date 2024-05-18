@@ -7,8 +7,8 @@ public class Child extends Human{
 
     @Override
     public void eat(){
-        this.height += 1;
-        System.out.println("어린이 "+this.name+" 몸무게 +1");
+        this.weight += 0.7;
+        System.out.println("어린이 "+this.name+" 몸무게 +0.7");
     }
 
     public void play(){
